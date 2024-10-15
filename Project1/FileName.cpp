@@ -278,7 +278,7 @@ public:
 
 	}
 
-	char* GetAddress() {
+	char* GetAddress() const {
 		return address;
 	}
 
@@ -291,7 +291,7 @@ public:
 		}
 	}
 
-	Product** GetProducts() {
+	Product** GetProducts() const {
 		return products;
 	}
 
@@ -304,7 +304,7 @@ public:
 		}
 	}
 
-	int GetCount() {
+	int GetCount()  const {
 		return count;
 	}
 	
